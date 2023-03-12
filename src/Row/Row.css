@@ -1,0 +1,37 @@
+.Row{
+
+    color: #e6e6e6;
+    margin: 20px;
+    
+    
+}
+
+
+
+.row_posters{
+
+
+
+display: flex;
+overflow-x: scroll;
+overflow-y: hidden;
+padding: 20px;
+
+
+}
+
+.row_poster{
+
+
+    max-width: 170px;
+}
+
+.row_poster:hover{
+
+    transform: scale(1.08);
+    transition: all 0.3s;
+}
+
+.row_posters::-webkit-scrollbar{
+    display: none;
+}

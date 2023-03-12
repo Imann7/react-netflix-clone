@@ -1,0 +1,44 @@
+.banner {
+  
+
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  color: aliceblue;
+}
+
+.banner_content {
+  padding-top: 14%;
+  padding-left: 50px;
+}
+
+.title {
+  font-weight: 900;
+  padding-bottom: 10px;
+  font-size: 60px;
+}
+
+.description {
+  padding-top: 6px;
+  max-width: 600px;
+  font-size: 19px;
+}
+
+.btn {
+  padding: 10px;
+  border: none;
+  outline: none;
+  color: white;
+  background-color: rgba(51, 51, 51, 0.5);
+  font-weight: 800;
+  padding: 10px 23px;
+  margin-right: 20px;
+  border-radius: 0.2vw;
+  margin-bottom: 12px;
+}
+
+.btn:hover {
+  color: #000;
+  background-color: #e6e6e6;
+  transition: all 0.3s;
+}
