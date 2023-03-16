@@ -1,14 +1,21 @@
-import React from 'react';
+import React from "react";
+import "./App.css";
+import HomeScreen from "./Home/HomeScreen";
 
-import './App.css';
-import HomeScreen from './Home/HomeScreen';
+import { Route, Routes } from "react-router-dom";
+import Login from "./Login/Login";
+import Sign from "./Sign";
 
 
 function App() {
   return (
     <div className="App">
-    
-      <HomeScreen/>
+   <Routes>
+   <Route path="/" element={<Login/>}/>
+    <Route path="/movies" element={<HomeScreen/>}/>
+
+   </Routes>
+ 
     </div>
   );
 }

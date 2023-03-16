@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 import "./Nav.css";
 
 function Nav() {
@@ -23,15 +24,11 @@ function Nav() {
       <div className="nav_content">
         <img
           className="nav_logo"
-          src="https://assets.stickpng.com/images/580b57fcd9996e24bc43c529.png"
+          src="https://cdn.cookielaw.org/logos/dd6b162f-1a32-456a-9cfe-897231c7763c/4345ea78-053c-46d2-b11e-09adaef973dc/Netflix_Logo_PMS.png"
           alt="logo"
         />
-
-        <img
-          className="nav_avatar"
-          src="https://ih0.redbubble.net/image.618427277.3222/flat,1000x1000,075,f.u2.jpg"
-          alt="avatar"
-        />
+<Link to={"/"}><button className="out-btn">Sign out</button></Link>
+        
       </div>
     </div>
   );
