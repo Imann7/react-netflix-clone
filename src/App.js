@@ -4,7 +4,7 @@ import HomeScreen from "./Home/HomeScreen";
 
 import { Route, Routes } from "react-router-dom";
 import Login from "./Login/Login";
-import Sign from "./Sign";
+import Sign from "./Sign/Sign";
 
 
 function App() {

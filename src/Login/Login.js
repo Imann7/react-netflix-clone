@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./Login.css";
 import { Link } from "react-router-dom";
-import Sign from "../Sign";
+import Sign from "../Sign/Sign";
 
 function Login() {
 
